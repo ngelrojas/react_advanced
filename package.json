@@ -34,9 +34,11 @@
     "react-dom": "^16.8.6"
   },
   "standard": {
-    "ignore": "/api/**" 
+    "ignore": "/api/**"
   },
   "eslintConfig": {
-    "extends": ["./node_modules/standard/eslintrc.json"] 
+    "extends": [
+      "./node_modules/standard/eslintrc.json"
+    ]
   }
 }
