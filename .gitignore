@@ -2,4 +2,6 @@ dist/
 node_modules/
 package-lock.json
 cmdRA.txt
+api/package-lock.json
+
 
