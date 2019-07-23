@@ -1,0 +1,21 @@
+# we create a new project using 
+> npm init -y
+
+# next create a folder src and file index.js
+> mkdir src && cd src
+> src>touch index.js
+
+# compile using webpack a file index.js in directory src
+# when compile a file and directory, create a directory colled dist and inside a file main.js 
+> ./node_modules/.bin/webpack src/index.js
+
+# add react and react-dom and babel, like a package.json in this tutorial
+# config and add in webpack.config.js, create "build": "webpack" and "dev": "webpack-dev-server"
+
+# add package linter in this tutorial add linter standard like this:
+> npm install standard --save-dev
+
+# when add package standard, we need to add in package.json standard ignore like this
+"standard": {
+    "ignore": "/example de files ignore
+}
