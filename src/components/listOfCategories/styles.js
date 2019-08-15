@@ -4,6 +4,18 @@ export const List = styled.ul`
     display: flex;
     overflow: scroll;
     width: 100%;
+    &.fixed{
+        background: red;
+        border-radius: 60px;
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+        left: 0;
+        margin: 40px;
+        max-width: 400px;
+        padding: 5px;
+        position: fixed;
+        right: 0;
+        top: -20px;
+    }
 `
 
 export const Item = styled.li`
